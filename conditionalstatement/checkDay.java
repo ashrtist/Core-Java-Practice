@@ -37,6 +37,7 @@ public class checkDay {
                 System.out.println("Enter valid choice");
                 break;
         }
+    sc.close();
     }
         while(true);
     }

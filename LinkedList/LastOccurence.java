@@ -14,10 +14,9 @@ public class LastOccurence {
         {
             list.add(sc.nextInt());
         }
-
         System.out.println("Enter the Element to Find Last Occurence : ");
         Integer value =sc.nextInt();
-        
+
         System.out.println(value+" Last Occurence is At : "+list.lastIndexOf(value));
     }
 }

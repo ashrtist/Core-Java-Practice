@@ -26,5 +26,6 @@ public class Contains {
         {
             System.out.print(value+" Not Exist");
         }
+        sc.close();
     }
 }

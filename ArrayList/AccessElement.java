@@ -1,5 +1,6 @@
 package ArrayList;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Scanner;
 public class AccessElement {
     public static void main(String x[])
     {
@@ -20,6 +21,7 @@ public class AccessElement {
         else
         {
             System.out.println("Enter Valid Index");
-        }   
+        } 
+        sc.close();  
     }
 }
